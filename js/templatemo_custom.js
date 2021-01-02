@@ -30,12 +30,6 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 
-	$(".main-menu a.blogbutton").click(function(){
-		$("#menu-container .content").slideUp('slow');
-		$("#menu-container .blog-section").slideDown('slow');
-		return false;
-	});
-
 	$(".main-menu a.contactbutton").click(function(){
 		$("#menu-container .content").fadeOut();
 		$("#menu-container .contact-section").slideDown('slow');
@@ -43,6 +37,11 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 
+	$(".main-menu a.referencesbutton").click(function(){
+		$("#menu-container .content").slideUp('slow');
+		$("#menu-container .references-section").slideDown('slow');
+		return false;
+	});
 
 
 	$('a.toggle-nav').click(function(){
