@@ -589,6 +589,13 @@ span.offer-right {
     animation-delay: 3.3s;
 }
 
+.p-11 {
+    -moz-animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+
 .contact-header {
     margin-bottom: 100px;
 }
